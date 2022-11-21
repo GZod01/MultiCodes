@@ -1,10 +1,11 @@
 #you will create some code here
 def myfunction(a,b,c):
   action = (
-    if (a*b)==c:
-      print('ok')
-    else:
-      prnt('ko')
+    'hello',
+    a*b,
+    a*c,
+    b*c,
+    'end'
   )
   return action
-myfunction(2,3,6)
+print(myfunction(2,3,6))
